@@ -1,6 +1,6 @@
 
 import { HomeContainer } from './style';
-import logo from '../../assets/logo.png' 
+ 
 export const Home: React.FC = () => {
   
 
