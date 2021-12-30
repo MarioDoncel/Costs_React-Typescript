@@ -1,6 +1,6 @@
 import { NewProjectContainer } from './style';
-import { Link } from 'react-router-dom';
-import { FiArrowRightCircle } from "react-icons/fi";
+import ProjectForm from '../../components/ProjectForm';
+
 
 
 
@@ -8,8 +8,9 @@ export const NewProject = () => {
   
   return (
     <NewProjectContainer>
-      <h2>Page2</h2>
-      <Link to='/'> <FiArrowRightCircle className='icon'/>Link to page 1 </Link>
+      <h1>Criar Projeto</h1>
+      <p>Crie seu projeto para depois adicionar os serviços</p>
+      <ProjectForm text='Criar Projeto' />
     </NewProjectContainer>
   );
 }

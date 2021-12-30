@@ -1,16 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 import { FooterContainer } from './styles';
 
 const Footer: React.FC = () => {
      return (
         <FooterContainer>
-            <ul>
-                <li> <Link to=""></Link> </li>
-                
-            </ul>
-
+            <div className='social'>
+                <FaWhatsapp />
+                <FaFacebook />
+                <FaInstagram />
+            </div>
+            <p><span>Costs</span>&copy;2021</p>
         </FooterContainer>
     )
 }

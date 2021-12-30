@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const ContainerContainer = styled.div`
-    max-width: 1200px;
-    
+    margin: 0, auto;
+    max-width: 90%;  
+    flex:1 ;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 `;

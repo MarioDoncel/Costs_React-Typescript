@@ -1,5 +1,5 @@
 import { createGlobalStyle} from 'styled-components'
-
+import { colors } from './theme/colors'
 // CSS RESET
 
 export const GloblaStyle = createGlobalStyle`
@@ -18,16 +18,13 @@ export const GloblaStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
 }
 html,body,#root{
-    background-color: #EFEFEF;
-
-    font-size: 1.6rem;
-    
+    background-color: ${colors.BACKGROUND};
 
     min-height: 100vh;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 @media(min-width:600px){

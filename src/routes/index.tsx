@@ -7,7 +7,7 @@ import {
 import Container from "../components/Container";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-  import {Home, Company,Contact, NewProject} from '../pages/index';
+  import {Home, Company,Contact, NewProject,Projects} from '../pages/index';
 
 
   export const Router = ()=>{
@@ -20,6 +20,7 @@ import Header from "../components/Header";
             <Route path="/company" element={<Company />}/>
             <Route path="/contact" element={<Contact />}/>
             <Route path="/newproject" element={<NewProject />}/>
+            <Route path="/projects" element={<Projects />}/>
           </Routes>
         </Container>
         <Footer />

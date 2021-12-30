@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const NewProjectContainer = styled.div`
-  .icon {
-      color: blue;
+  
+  p{
+    color: ${({theme})=> theme.color.textLighter};
   }
 `;
