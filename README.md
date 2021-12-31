@@ -1,46 +1,179 @@
-# Getting Started with Create React App
+<!-- TITLE -->
+<h1>COSTS</h1> <br>
+<div align="center">
+  <img src="src/assets/logo.png" alt="Logo" width="300px">
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project developed for study purposes on course Curso de React - Matheus Battisti, i added Typescript and used differents strategies from the instructor
+</div><br>  
 
-## Available Scripts
+<!-- 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url] 
+-->
+[![MIT License][license-shield]](https://github.com/MarioDoncel/Costs_React-Typescript/blob/main/LICENSE)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/marioadoncel/)
 
-In the project directory, you can run:
 
-### `npm start`
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#objective">Objective</a></li>
+        <li><a href="#status">Status</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- ABOUT THE PROJECT -->
+## About The Project
+An application to projects management, developed for study purposes on the course Curso de React - Matheus Battisti, i added Typescript and used differents strategies from the instructor in the code like whole new styles strategy with the utilization of styled-components, creation of a service folder to request "API' and some different strategies for props drilling and hooks use, 
 
-### `npm run build`
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples. -->
+* [Typescript](https://www.typescriptlang.org/)
+* [ReactJS](https://pt-br.reactjs.org/)
+* [Styled Components](https://styled-components.com/)
+* [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+* [React Icons](https://react-icons.github.io/react-icons/)
+* Json-Server
 
-### `npm run eject`
+<!-- 
+* [Next.js](https://nextjs.org/)
+* [React.js](https://reactjs.org/)
+* [Vue.js](https://vuejs.org/)
+* [Angular](https://angular.io/)
+* [Svelte](https://svelte.dev/)
+* [Laravel](https://laravel.com)
+* [Bootstrap](https://getbootstrap.com)
+* [JQuery](https://jquery.com)
+ -->
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Objective
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project developed for educacional purposes.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Status
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Finished.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Learn More
+<!-- GETTING STARTED -->
+## Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- This is an example of how to list things you need to use the software and how to install them. -->
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+<!-- _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+ -->
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/MarioDoncel/Costs_React-Typescript
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+    
+3. Duplicate the terminal and run the json-server backend
+    ```js
+    npm run backend
+    ```
+4. Run the application
+    ```js
+    npm start
+    ```
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+<img src="src/assets/readmeFiles/Costs.gif" alt="Costs gif" width="500px">
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Mario Andres Doncel Neto  
+
+Email - 88mario.doncel@gmail.com <br>
+Whatsapp - +55 19 99612 9909
+
+Project Link: [https://github.com/MarioDoncel/Costs_React-Typescript](https://github.com/MarioDoncel/Costs_React-Typescript)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [Matheus Battisti](https://www.youtube.com/c/MatheusBattisti)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
