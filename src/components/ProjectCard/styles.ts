@@ -91,4 +91,9 @@ export const ProjectCardContainer = styled.div`
         color: blue;
         font-size: 1.2rem;
     }
+
+    @media (max-width:600px){
+        width: 160px;
+        height: 200px;
+    }
 `;

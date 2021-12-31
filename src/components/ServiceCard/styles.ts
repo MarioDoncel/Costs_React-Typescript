@@ -77,5 +77,8 @@ export const ServiceCardContainer = styled.div`
         background-color: initial;
     }
 
-
+    @media (max-width:600px){
+        width: 160px;
+        height: 200px;
+    }
 `;

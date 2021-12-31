@@ -40,8 +40,21 @@
         "id": 1,
         "name": "Infraestrutura"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 1350,
+      "services": [
+        {
+          "id": "ff811cde-2fbf-4a41-a6ad-2584ac05e2bc",
+          "name": "Desenvolvedor Backend",
+          "cost": "1300",
+          "description": "Contratação de desenvolvedor backend"
+        },
+        {
+          "id": "a997f231-5412-4204-a7c8-fa3c49ba5d96",
+          "name": "Hospedagem",
+          "cost": "50",
+          "description": "Custo de hospedagem da aplicação"
+        }
+      ],
       "id": 4
     }
   ],

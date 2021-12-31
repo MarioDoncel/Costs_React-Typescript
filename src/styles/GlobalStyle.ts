@@ -5,6 +5,7 @@ import { colors } from './theme/colors'
 export const GloblaStyle = createGlobalStyle`
 :root{
     font-size: 62.5%;
+    font-size: 12px;
 }
 
 *:not(svg, circle, line, polyline) {
