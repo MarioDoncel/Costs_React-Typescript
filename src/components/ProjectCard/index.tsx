@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { MouseEventHandler } from 'react';
 
 import { ProjectCardContainer } from './styles';
 import{BsPencil, BsFillTrashFill} from 'react-icons/bs'
 import { Link } from 'react-router-dom';
 
-interface IProjectCard {
+
+export interface IProjectCard {
   id:number, 
   name:string,
   budget:number, 
@@ -12,10 +13,13 @@ interface IProjectCard {
     id:number,
     name:string
   }, 
-  handleRemove?:(e:MouseEvent)=>void
+  handleRemove:( id:number)=>void
 }
 
 const ProjectCard = ({id, name,budget, category, handleRemove}:IProjectCard) => {
+
+  
+
   return (
   <ProjectCardContainer>
     <div className="title">
@@ -27,8 +31,8 @@ const ProjectCard = ({id, name,budget, category, handleRemove}:IProjectCard) => 
     </div>
     <p className={`category ${category.name.toLocaleLowerCase()}`}><span ></span>{category.name}</p>
     <div className="actions">
-      <Link to='/' className='edit'><BsPencil/></Link>
-      <button type='button'className='remove'><BsFillTrashFill/></button>
+      <Link to={`/projects/${id}`} className='edit'><BsPencil/></Link>
+      <button type='button'className='remove' onClick={()=>handleRemove(id)}><BsFillTrashFill/></button>
     </div>
   </ProjectCardContainer>
 );

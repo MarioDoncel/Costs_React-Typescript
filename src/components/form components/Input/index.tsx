@@ -22,7 +22,8 @@ const Input = ({type='text', label, name, placeholder, handleOnChange, value}:II
                 id={name} 
                 placeholder={placeholder} 
                 onChange={handleOnChange} 
-                value={value}/>
+                defaultValue={value}
+            />
         </InputContainer>
     )
 }

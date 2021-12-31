@@ -25,6 +25,7 @@ html,body,#root{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    overflow-x: hidden;
 }
 
 @media(min-width:600px){

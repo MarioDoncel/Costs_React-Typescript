@@ -1,5 +1,5 @@
 import { type } from 'os';
-import React, { ChangeEvent } from 'react';
+import React, { ChangeEvent, useEffect } from 'react';
 
 import { SelectContainer } from './styles';
 
@@ -21,10 +21,11 @@ const Select = ({ label, name, options, handleOnChange, value}:ISelect) => {
   return (
         <SelectContainer>
             <label htmlFor={name}>{label}</label>
-            <select name={name} id={name} onChange={handleOnChange} defaultValue='Selecione uma opção' >
+            <select name={name} id={name} onChange={handleOnChange} 
+                value={ value} defaultValue={'Selecione uma opção'} >
                 <option disabled >Selecione uma opção</option>
                 {options.length > 0 && options.map(option=>(
-                    <option value={option.id} key={option.id}>{option.name}</option>
+                    <option value={option.id}  key={option.id} >{option.name}</option>
                 ))}
             </select>
         </SelectContainer>
